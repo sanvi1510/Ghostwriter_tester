@@ -32,3 +32,10 @@ def remainder(a, b):
 def power(a,b)
     """Returns Power"""
     return a**b
+
+def box_function(x, a=-0.5, b=0.5):
+    if a <= x <= b:
+        return 1
+    else:
+        return 0
+
