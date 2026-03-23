@@ -23,7 +23,7 @@ def divide(a, b):
     return a / b
 
 
-def remainder(a, b):
+def remain(a, b):
     """Return the remainder of two numbers."""
     if b == 0:
         raise ValueError("Cannot divide by zero")
