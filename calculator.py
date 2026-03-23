@@ -38,10 +38,3 @@ def box_function(x, a=-0.5, b=0.5):
         return 1
     else:
         return 0
-def printer
-    print("Hello World")
-    return 0
-
-def printer2
-    print("Hello World 2")
-    return 0
