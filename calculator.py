@@ -29,8 +29,6 @@ def remainder(a, b):
         raise ValueError("Cannot divide by zero")
     return a % b
 
-def power(a,b)
-    """Returns Power"""
-    return a**b
+
 
 
