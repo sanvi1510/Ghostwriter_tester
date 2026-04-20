@@ -1,0 +1,25 @@
+# Sample string
+text = "Hello, World!"
+
+# Length of string
+print("Length:", len(text))
+
+# Convert to uppercase
+print("Uppercase:", text.upper())
+
+# Convert to lowercase
+print("Lowercase:", text.lower())
+
+# Replace a word
+new_text = text.replace("World", "Python")
+print("Replaced:", new_text)
+
+# Check if substring exists
+print("Contains 'Hello'?", "Hello" in text)
+
+# Split string
+words = text.split(", ")
+print("Split:", words)
+
+# Reverse string
+print("Reversed:", text[::-1])
