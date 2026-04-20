@@ -23,11 +23,7 @@ def divide(a, b):
     return a / b
 
 
-def remain_fn(a, b):
-    """Return the remainder of two numbers."""
-    if b == 0:
-        raise ValueError("Cannot divide by zero")
-    return a % b
+
 
 
 
