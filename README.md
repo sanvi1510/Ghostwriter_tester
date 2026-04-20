@@ -40,6 +40,8 @@ Then you can use it in your Python scripts.
 To use the `add` function, save the following code in a file, for example, `main_add.py`:
 ```python
 # main_add.py
+import sys
+sys.path.insert(0, './')
 from calculator import add
 
 def main():
@@ -56,6 +58,8 @@ Run the script using `python main_add.py`.
 To use the `product` function, save the following code in a file, for example, `main_product.py`:
 ```python
 # main_product.py
+import sys
+sys.path.insert(0, './')
 from calculator import product
 
 def main():
@@ -72,6 +76,8 @@ Run the script using `python main_product.py`.
 To use the `subtract` function, save the following code in a file, for example, `main_subtract.py`:
 ```python
 # main_subtract.py
+import sys
+sys.path.insert(0, './')
 from calculator import subtract
 
 def main():
@@ -88,6 +94,8 @@ Run the script using `python main_subtract.py`.
 To use the `divide` function, save the following code in a file, for example, `main_divide.py`:
 ```python
 # main_divide.py
+import sys
+sys.path.insert(0, './')
 from calculator import divide
 
 def main():
@@ -104,6 +112,8 @@ Run the script using `python main_divide.py`.
 To use the `remainder` function, save the following code in a file, for example, `main_remainder.py`:
 ```python
 # main_remainder.py
+import sys
+sys.path.insert(0, './')
 from calculator import remainder
 
 def main():
@@ -129,7 +139,11 @@ Make sure the `calculator.py` file is in the same directory as the script that i
 
 Note: The `calculator.py` file should be in the same directory as the scripts that are using it. If the `calculator.py` file is in a different directory, you need to adjust the import statement accordingly.
 
-However, upon reviewing the provided calculator.py file in the repository context, it appears there is a duplicate function definition for `divide(a, b)`. The second definition seems to be intended for the `remainder(a, b)` function. Here is the corrected version of `calculator.py`:
+However, upon reviewing the provided calculator.py file in the repository context, it appears there was a duplicate function definition for `divide(a, b)`. The second definition seems to be intended for the `remainder(a, b)` function. The corrected version of `calculator.py` is shown above in the Installation section.
+
+The original `calculator.py` file had a duplicate definition for the `divide` function which was actually the implementation for the `remainder` function. The corrected `calculator.py` file has been provided in the Installation section. The usage examples remain the same as the original README. 
+
+The corrected `calculator.py` file is:
 ```python
 # calculator.py
 def add(a, b):
